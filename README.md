@@ -21,6 +21,7 @@
 - Create an AKS cluster with Azure Active Directory (AAD) integration.
 - Enable role-based access control (RBAC).
 - Enable Azure Policy for Kubernetes to enforce security policies.
+- OR Enable Gatekeeper for Kubernetes to enforce security policies.
 
 ### 2. Network Security
 - Configure network policies to control traffic between pods.
@@ -29,8 +30,7 @@
 
 ### 3. Securing Ingress and Egress Traffic
 - Set up an NGINX Ingress Controller with TLS termination.
-- Use Azure Application Gateway as an Ingress Controller with Web Application Firewall (WAF) enabled.
-- Implement egress controls using Azure Firewall.
+- Implement Network Isolated Cluster
 
 ### 4. Container Security
 - Scan container images for vulnerabilities using Azure Security Center.
